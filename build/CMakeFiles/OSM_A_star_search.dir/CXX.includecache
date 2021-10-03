@@ -56,6 +56,12 @@ model.h
 iostream
 -
 
+/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.cpp
+route_planner.h
+/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.h
+algorithm
+-
+
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.h
 iostream
 -
