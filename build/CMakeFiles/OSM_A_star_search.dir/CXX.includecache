@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../thirdparty/pugixml/src/pugiconfig.hpp
-
-../thirdparty/pugixml/src/pugixml.hpp
-pugiconfig.hpp
-../thirdparty/pugixml/src/pugiconfig.hpp
-stddef.h
--
-exception
--
-iterator
--
-iosfwd
--
-string
--
-
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/main.cpp
 render.h
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/render.h
@@ -42,22 +26,6 @@ string
 vector
 -
 
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/model.cpp
-model.h
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/model.h
-pugixml.hpp
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/pugixml.hpp
-iostream
--
-string_view
--
-cmath
--
-algorithm
--
-assert.h
--
-
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/model.h
 vector
 -
@@ -68,12 +36,6 @@ string
 cstddef
 -
 
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/render.cpp
-render.h
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/render.h
-iostream
--
-
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/render.h
 unordered_map
 -
@@ -81,12 +43,6 @@ io2d.h
 -
 route_model.h
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_model.h
-
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_model.cpp
-route_model.h
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_model.h
-iostream
--
 
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_model.h
 limits
@@ -98,12 +54,6 @@ unordered_map
 model.h
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/model.h
 iostream
--
-
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.cpp
-route_planner.h
-/mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.h
-algorithm
 -
 
 /mnt/d/Code/CCplusplus/Udacity_cpp/1_foundations/CppND-Route-Planning-Project/src/route_planner.h
