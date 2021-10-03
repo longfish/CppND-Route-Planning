@@ -64,10 +64,10 @@ bool Compare(const RouteModel::Node *a, const RouteModel::Node *b) {
 }
 
 RouteModel::Node *RoutePlanner::NextNode() {
-  // sort the open_list in descending order
-  sort(open_list.begin(), open_list.end(), Compare);
+  sort(open_list.begin(), open_list.end(),
+       Compare); // sort the open_list in descending order
   auto curr = open_list.back();
-  open_list.pop_back();
+  open_list.pop_back(); // remove the next node from open_list
   return curr;
 }
 
@@ -117,5 +117,17 @@ RoutePlanner::ConstructFinalPath(RouteModel::Node *current_node) {
 void RoutePlanner::AStarSearch() {
   RouteModel::Node *current_node = nullptr;
 
-  // TODO: Implement your solution here.
+  // initialize the starting node
+  current_node = start_node;
+  current_node->h_value = CalculateHValue(current_node);
+  current_node->g_value = 0;
+  open_list.emplace_back(current_node);
+  current_node->visited = true;
+
+  while (current_node != end_node) {
+    current_node = NextNode();
+    AddNeighbors(current_node); // expand search to current_node's neighbors
+  }
+
+  m_Model.path = ConstructFinalPath(end_node);
 }
